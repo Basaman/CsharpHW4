@@ -19,4 +19,7 @@ while (count < number_N)
         count = count + 1;
     }
 }
-Console.Write(number_N);
+if (number_N % 2 == 0)
+{
+    Console.Write(number_N);
+}
